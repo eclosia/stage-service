@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: stage-service
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/stage_db
+    username: postgres
+    password: bj151197
+
+
+  spring:
+  cloud:
+    config:
+      enabled: false
