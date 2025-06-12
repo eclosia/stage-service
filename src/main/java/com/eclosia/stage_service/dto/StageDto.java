@@ -10,18 +10,33 @@ import java.time.LocalDate;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-
-
 public class StageDto {
-  private Long id;
-  private String titre;
-  private String description;
-  private String entreprise;
-  private String lieu;
-  private LocalDate dateDebut;
-  private LocalDate dateFin;
-  private Double remuneration;
-  private String contactEmail;
-  private LocalDate createdAt;
-  private LocalDate updatedAt;
+
+    private Long id;
+
+    private String titre;
+
+    private String entreprise;
+
+    private String entrepriseId;
+
+    private String contact_email;
+
+    private String lieu;
+
+    private String type;
+
+    private String description;
+
+    private String technologies;
+
+    private String duree;
+
+    private LocalDate debut;
+
+    private Double remuneration;
+
+    private String competences;
+
+    private String niveauEtude;
 }

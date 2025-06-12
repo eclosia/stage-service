@@ -10,4 +10,7 @@ public interface StageRepository extends R2dbcRepository<Stage, Long> {
   Flux<Stage> findByEntrepriseContainingIgnoreCase(String entreprise);
 
   Flux<Stage> findByTitreContainingIgnoreCase(String titre);
+
+  Flux<Stage> findByEntrepriseId(String entrepriseId);
+
 }

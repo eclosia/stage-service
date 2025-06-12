@@ -16,36 +16,54 @@ import java.time.LocalDate;
 @Table("stage")
 public class Stage {
 
-  @Id
-  private Long id;
+    @Id
+    private Long id;
 
-  @Column("titre")
-  private String titre;
+    @Column("titre")
+    private String titre;
 
-  @Column("description")
-  private String description;
+    @Column("description")
+    private String description;
 
-  @Column("entreprise")
-  private String entreprise;
+    @Column("entreprise")
+    private String entreprise;
 
-  @Column("lieu")
-  private String lieu;
+    @Column("entrepriseId")
+    private String entrepriseId;
 
-  @Column("date_debut")
-  private LocalDate dateDebut;
+    @Column("lieu")
+    private String lieu;
 
-  @Column("date_fin")
-  private LocalDate dateFin;
+    @Column("date_debut")
+    private LocalDate dateDebut;
 
-  @Column("remuneration")
-  private Double remuneration;
+    @Column("date_fin")
+    private LocalDate dateFin;
 
-  @Column("contact_email")
-  private String contactEmail;
+    @Column("remuneration")
+    private Double remuneration;
 
-  @Column("created_at")
-  private LocalDate createdAt;
+    @Column("contact_email")
+    private String contactEmail;
 
-  @Column("updated_at")
-  private LocalDate updatedAt;
+    @Column("created_at")
+    private LocalDate createdAt;
+
+    @Column("updated_at")
+    private LocalDate updatedAt;
+
+    @Column("type")
+    private String type;
+
+    @Column("technologies")
+    private String technologies;
+
+    @Column("duree")
+    private String duree;
+
+    @Column("competences")
+    private String competences;
+
+    @Column("niveauEtude")
+    private String niveauEtude;
 }

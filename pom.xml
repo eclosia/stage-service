@@ -40,10 +40,10 @@
             <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -53,15 +53,14 @@
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
-            <version>0.12.3</version>  </dependency>
+            <version>0.12.3</version>
+        </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
-
-
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -90,28 +89,20 @@
             <scope>test</scope>
         </dependency>
 
-
-
-
-
-
         <dependency>
             <groupId>jakarta.validation</groupId>
             <artifactId>jakarta.validation-api</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
         </dependency>
-
-
-
-
-
 
         <dependency>
             <groupId>org.keycloak</groupId>
@@ -124,6 +115,7 @@
             <artifactId>springdoc-openapi-starter-webflux-api</artifactId>
             <version>${openapi.version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
@@ -134,13 +126,16 @@
             <artifactId>reactor-rabbitmq</artifactId>
             <version>1.5.6</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
         <!--
                 <dependency>
                     <groupId>com.eclosia</groupId>
                     <artifactId>common-library</artifactId>
                     <version>1.0.0-SNAPSHOT</version>
                 </dependency> -->
-
 
     </dependencies>
 

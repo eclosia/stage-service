@@ -1,14 +1,19 @@
+server:
+    port: 8082
+
+debug: true
+
 spring:
-  application:
-    name: stage-service
+    application:
+        name: stage-service
 
-  r2dbc:
-    url: r2dbc:postgresql://localhost:5432/stage_db
-    username: postgres
-    password: bj151197
+    r2dbc:
+        url: r2dbc:postgresql://localhost:5432/stage_db
+        username: postgres
+        password: sadik2003
 
 
-  spring:
-  cloud:
-    config:
-      enabled: false
+    spring:
+    cloud:
+        config:
+            enabled: false
